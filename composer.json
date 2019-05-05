@@ -1,0 +1,44 @@
+{
+    "name": "nicolasbeauvais/nova-sendgrid-card",
+    "description": "A Laravel Nova card for Sendgrid",
+    "keywords": [
+        "laravel",
+        "nova",
+        "sendgrid"
+    ],
+    "homepage": "https://github.com/nicolasbeauvais/nova-sendgrid-card",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Beauvais",
+            "email": "nicolasbeauvais1@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "sendgrid/sendgrid": "~7",
+        "laravel/nova": "*",
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-json": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "NicolasBeauvais\\NovaSendgridCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NicolasBeauvais\\NovaSendgridCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
