@@ -5,7 +5,7 @@
 
 Get some insight on your Sendgrid recipient count with this easy to use Nova card.
 
-![nova-sendgrid-card](https://user-images.githubusercontent.com/2951704/44540973-dfbbbd80-a708-11e8-8387-057aa40fcbf0.png)
+![nova-sendgrid-card](https://user-images.githubusercontent.com/2951704/57195941-32b46880-6f58-11e9-80b0-899892b5ff8e.png)
 
 ## Installation
 
