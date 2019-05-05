@@ -17,7 +17,6 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "sendgrid/sendgrid": "~7",
         "laravel/nova": "*",
         "guzzlehttp/guzzle": "^6.3",
         "ext-json": "*"
