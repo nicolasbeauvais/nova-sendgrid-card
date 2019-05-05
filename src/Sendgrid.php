@@ -6,6 +6,8 @@ use GuzzleHttp\Client;
 
 class Sendgrid
 {
+    private $client;
+
     public function client() : Client
     {
         if ($this->client) {

@@ -1,13 +1,13 @@
 <style lang="scss" scoped>
 .nova-sendgrid-card-title {
-  color: #489be8;
+    color: #489be8;
 
-  .nova-sendgrid-card-title-logo {
-    width: 1.8rem;
-    margin-right: .2rem;
-    display: inline;
-    vertical-align: middle;
-  }
+    .nova-sendgrid-card-title-logo {
+        width: 1.8rem;
+        margin-right: 0.2rem;
+        display: inline;
+        vertical-align: middle;
+    }
 }
 </style>
 
@@ -16,7 +16,7 @@
 
     <div class="flex mb-4">
       <h3 class="text-lg font-bold nova-sendgrid-card-title">
-        <svg class="nova-sendgrid-card-title-logo" viewBox="0 0 185 173.7" style="enable-background:new 0 0 185 173.7;" xml:space="preserve">
+        <svg class="nova-sendgrid-card-title-logo" viewBox="0 0 185 173.7">
           <style type="text/css">.st0{fill:#99E1F4;}.st1{fill:#009DD9;}.st2{fill:#00B3E3;}.st3{fill:#1A82E2;}</style>
           <g>
             <rect id="_x39_9E1F4" x="71.2" y="108.1" class="st0" width="42.4" height="42.4"/>
@@ -45,31 +45,31 @@
 </template>
 
 <script>
- import numeral from 'numeral'
+import numeral from 'numeral';
 
- export default {
-   props: ['card'],
+export default {
+    props: ['card'],
 
-   data() {
-     return {
-       count: null
-     }
-   },
+    data() {
+        return {
+            count: null
+        };
+    },
 
-   mounted() {
-     Nova.request().get('/nova-vendor/nicolasbeauvais/nova-sendgrid-card/').then(({data}) => {
-       this.count = data.count
-     })
-   },
+    mounted() {
+        Nova.request()
+            .get('/nova-vendor/nicolasbeauvais/nova-sendgrid-card/')
+            .then(({ data }) => {
+                this.count = data.count;
+            });
+    },
 
-   computed: {
-     formattedCount() {
-       const numeralCount = numeral(this.count)
+    computed: {
+        formattedCount() {
+            const numeralCount = numeral(this.count);
 
-       return numeralCount.value() > 1000
-            ? numeralCount.format('(0.00a)')
-            : this.count
-     }
-   }
- }
+            return numeralCount.value() > 1000 ? numeralCount.format('(0.00a)') : this.count;
+        }
+    }
+};
 </script>
