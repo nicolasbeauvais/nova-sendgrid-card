@@ -17,15 +17,14 @@
     <div class="flex mb-4">
       <h3 class="text-lg font-bold nova-sendgrid-card-title">
         <svg class="nova-sendgrid-card-title-logo" viewBox="0 0 185 173.7">
-          <style type="text/css">.st0{fill:#99E1F4;}.st1{fill:#009DD9;}.st2{fill:#00B3E3;}.st3{fill:#1A82E2;}</style>
           <g>
-            <rect id="_x39_9E1F4" x="71.2" y="108.1" class="st0" width="42.4" height="42.4"/>
-            <rect id="_x39_9E1F4_1_" x="28.8" y="65.6" class="st0" width="42.4" height="42.4"/>
-            <rect id="_x30_09DD9" x="71.2" y="65.6" class="st1" width="42.4" height="42.4"/>
-            <rect id="_x30_0B3E3_1_" x="71.2" y="23.2" class="st2" width="42.4" height="42.4"/>
-            <rect id="_x31_a82e2" x="28.8" y="108.1" class="st3" width="42.4" height="42.4"/>
-            <rect id="_x30_0B3E3" x="113.6" y="65.6" class="st2" width="42.4" height="42.4"/>
-            <rect id="_x31_a82e2_1_" x="113.6" y="23.2" class="st3" width="42.4" height="42.4"/>
+            <rect x="71.2" y="108.1" fill="#99E1F4" width="42.4" height="42.4"></rect>
+            <rect x="28.8" y="65.6" fill="#99E1F4" width="42.4" height="42.4"></rect>
+            <rect x="71.2" y="65.6" fill="#009DD9" width="42.4" height="42.4"></rect>
+            <rect x="71.2" y="23.2" fill="#00B3E3" width="42.4" height="42.4"></rect>
+            <rect x="28.8" y="108.1" fill="#1A82E2" width="42.4" height="42.4"></rect>
+            <rect x="113.6" y="65.6" fill="#00B3E3" width="42.4" height="42.4"></rect>
+            <rect x="113.6" y="23.2" fill="#1A82E2" width="42.4" height="42.4"></rect>
           </g>
         </svg>
         Sendgrid
